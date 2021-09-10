@@ -1,0 +1,9 @@
+c:\users\tvthanh\documents\visual studio 2017\Projects\DumbProject\DumbProject\bin\Debug\DumbProject.exe.config
+c:\users\tvthanh\documents\visual studio 2017\Projects\DumbProject\DumbProject\bin\Debug\DumbProject.exe
+c:\users\tvthanh\documents\visual studio 2017\Projects\DumbProject\DumbProject\bin\Debug\DumbProject.pdb
+c:\users\tvthanh\documents\visual studio 2017\Projects\DumbProject\DumbProject\obj\Debug\DumbProject.csprojResolveAssemblyReference.cache
+c:\users\tvthanh\documents\visual studio 2017\Projects\DumbProject\DumbProject\obj\Debug\DumbProject.Form1.resources
+c:\users\tvthanh\documents\visual studio 2017\Projects\DumbProject\DumbProject\obj\Debug\DumbProject.Properties.Resources.resources
+c:\users\tvthanh\documents\visual studio 2017\Projects\DumbProject\DumbProject\obj\Debug\DumbProject.csproj.GenerateResource.Cache
+c:\users\tvthanh\documents\visual studio 2017\Projects\DumbProject\DumbProject\obj\Debug\DumbProject.exe
+c:\users\tvthanh\documents\visual studio 2017\Projects\DumbProject\DumbProject\obj\Debug\DumbProject.pdb
