@@ -24,18 +24,22 @@ namespace DumbProject
         // Phep cong
         private void button1_Click(object sender, EventArgs e)
         {
+        // Lay phan thuc va phan ao cua so thu nhat.
             int pt1 = int.Parse(textBox1.Text);
             int pa1 = int.Parse(textBox2.Text);
+        // Lay phan thuc va phan ao cua so thu hai
             int pt2 = int.Parse(textBox3.Text);
             int pa2 = int.Parse(textBox4.Text);
             textBox5.Text = "" + (pt1 + pt2);
             textBox6.Text = "" + (pa1 + pa2);
         }
-        // Phep tru
+        // Phep tru so thu nhat cho so thu 2
         private void button3_Click(object sender, EventArgs e)
         {
+            // Lay phan thuc va phan ao cua so thu nhat.
             int pt1 = int.Parse(textBox1.Text);
             int pa1 = int.Parse(textBox2.Text);
+            // Lay phan thuc va phan ao cua so thu hai
             int pt2 = int.Parse(textBox3.Text);
             int pa2 = int.Parse(textBox4.Text);
             textBox5.Text = "" + (pt1 - pt2);
@@ -53,7 +57,7 @@ namespace DumbProject
             textBox5.Text = "" + (pt1 * pt2);
             textBox6.Text = "" + (pa1 * pa2);
         }
-        // Phep chia
+        // Phep chia so thu nhat cho so thu 2
         private void button4_Click(object sender, EventArgs e)
         {
             int pt1 = int.Parse(textBox1.Text);
