@@ -12,54 +12,100 @@ namespace DumbProject
 {
     public partial class Form1 : Form
     {
-        String message = "abcdef....";
+        String message = "0";
         public Form1()
         {
             InitializeComponent();
-            this.textBox1.Text = message;
-            this.textBox2.Text = message;
-            this.textBox3.Text = message;
-            this.textBox4.Text = message;
+            this.phanThuc1.Text = message;
+            this.phanAo1.Text = message;
+            this.phanThuc2.Text = message;
+            this.phanAo2.Text = message;
         }
         // Phep cong
         private void button1_Click(object sender, EventArgs e)
         {
-            int pt1 = int.Parse(textBox1.Text);
-            int pa1 = int.Parse(textBox2.Text);
-            int pt2 = int.Parse(textBox3.Text);
-            int pa2 = int.Parse(textBox4.Text);
-            textBox5.Text = "" + (pt1 + pt2);
-            textBox6.Text = "" + (pa1 + pa2);
+            try
+            {
+                // Lay du lieu dau vao
+                // Lay du lieu so thu nhat.
+                double phanThucSo1 = double.Parse(phanThuc1.Text);
+                double phanAoSo1 = double.Parse(phanAo1.Text);
+                // Lay du lieu so thu hai
+                double phanThucSo2 = double.Parse(phanThuc2.Text);
+                double phanAoSo2 = double.Parse(phanAo2.Text);
+                // Phan tinh toan ket qua:
+                phanThucKetQua.Text = "" + (phanThucSo1 + phanThucSo2);
+                PhanAoKetQua.Text = "" + (phanAoSo1 + phanAoSo2);
+            } catch(Exception ex)
+            {
+                MessageBox.Show("Chi duoc nhap so.");
+            }
+            
         }
-        // Phep tru
+        // Phep tru so phuc thu nhat cho so phuc thu 2
         private void button3_Click(object sender, EventArgs e)
         {
-            int pt1 = int.Parse(textBox1.Text);
-            int pa1 = int.Parse(textBox2.Text);
-            int pt2 = int.Parse(textBox3.Text);
-            int pa2 = int.Parse(textBox4.Text);
-            textBox5.Text = "" + (pt1 - pt2);
-            textBox6.Text = "" + (pa1 - pa2);
+            try
+            {
+                // Lay du lieu dau vao
+                // Lay du lieu so thu nhat.
+                double phanThucSo1 = double.Parse(phanThuc1.Text);
+                double phanAoSo1 = double.Parse(phanAo1.Text);
+                // Lay du lieu so thu hai
+                double phanThucSo2 = double.Parse(phanThuc2.Text);
+                double phanAoSo2 = double.Parse(phanAo2.Text);
+                // Phan tinh toan ket qua:
+                phanThucKetQua.Text = "" + (phanThucSo1 - phanThucSo2);
+                PhanAoKetQua.Text = "" + (phanAoSo1 - phanAoSo2);
+            } catch (Exception ex)
+            {
+                MessageBox.Show("Chi duoc nhap so.");
+            }
         }
-        // Phep nhan
+        // Phep nhan so phuc thu nhat cho so phuc thu 2
         private void button2_Click(object sender, EventArgs e)
         {
-            int pt1 = int.Parse(textBox1.Text);
-            int pa1 = int.Parse(textBox2.Text);
-            int pt2 = int.Parse(textBox3.Text);
-            int pa2 = int.Parse(textBox4.Text);
-            textBox5.Text = "" + (pt1 * pt2);
-            textBox6.Text = "" + (pa1 * pa2);
+            try
+            {
+                // Lay du lieu dau vao
+                // Lay du lieu so thu nhat.
+                double phanThucSo1 = double.Parse(phanThuc1.Text);
+                double phanAoSo1 = double.Parse(phanAo1.Text);
+                // Lay du lieu so thu hai
+                double phanThucSo2 = double.Parse(phanThuc2.Text);
+                double phanAoSo2 = double.Parse(phanAo2.Text);
+                // Phan tinh toan ket qua:
+                phanThucKetQua.Text = "" + (phanThucSo1 * phanThucSo2 - phanAoSo1 * phanAoSo2);
+                PhanAoKetQua.Text = "" + (phanThucSo1 * phanAoSo2 - phanThucSo2 * phanAoSo1);
+            } catch (Exception ex)
+            {
+                MessageBox.Show("Chi duoc nhap so.");
+            }
         }
-        // Phep chia
+        // Phep chia so thu nhat cho so thu 2
         private void button4_Click(object sender, EventArgs e)
         {
-            int pt1 = int.Parse(textBox1.Text);
-            int pa1 = int.Parse(textBox2.Text);
-            int pt2 = int.Parse(textBox3.Text);
-            int pa2 = int.Parse(textBox4.Text);
-            textBox5.Text = "" + (pt1 / pt2);
-            textBox6.Text = "" + (pa1 / pa2);
+            try
+            {
+                // Lay du lieu dau vao
+                // Lay du lieu so thu nhat.
+                double phanThucSo1 = double.Parse(phanThuc1.Text);
+                double phanAoSo1 = double.Parse(phanAo1.Text);
+                // Lay du lieu so thu hai
+                double phanThucSo2 = double.Parse(phanThuc2.Text);
+                double phanAoSo2 = double.Parse(phanAo2.Text);
+                // Phan tinh toan ket qua:
+                if (phanAoSo2 == 0 && phanThucSo2 == 0)
+                {
+                    MessageBox.Show("Loi chia cho 0!");
+                    return;
+                }
+                phanThucKetQua.Text = "" + ((phanThucSo1 * phanThucSo1 + phanAoSo1 * phanAoSo2) / (phanAoSo2 * phanAoSo2 + phanThucSo2 * phanThucSo2));
+                PhanAoKetQua.Text = "" + ((-phanThucSo1 * phanAoSo2 + phanAoSo1 * phanThucSo2) / (phanAoSo2 * phanAoSo2 + phanThucSo2 * phanThucSo2));
+            } catch (Exception ex)
+            {
+                MessageBox.Show("Chi duoc nhap so.");
+            }
         }
     }
 }

@@ -32,18 +32,18 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.phanThuc1 = new System.Windows.Forms.TextBox();
+            this.phanAo1 = new System.Windows.Forms.TextBox();
+            this.phanThuc2 = new System.Windows.Forms.TextBox();
+            this.phanAo2 = new System.Windows.Forms.TextBox();
+            this.bntCong = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.phanThucKetQua = new System.Windows.Forms.TextBox();
+            this.PhanAoKetQua = new System.Windows.Forms.TextBox();
+            this.bntNhan = new System.Windows.Forms.Button();
+            this.bntTru = new System.Windows.Forms.Button();
+            this.bntChia = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -82,43 +82,43 @@
             this.label4.TabIndex = 3;
             this.label4.Text = "Phần ảo của số thứ hai";
             // 
-            // textBox1
+            // phanThuc1
             // 
-            this.textBox1.Location = new System.Drawing.Point(230, 72);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(123, 20);
-            this.textBox1.TabIndex = 4;
+            this.phanThuc1.Location = new System.Drawing.Point(230, 72);
+            this.phanThuc1.Name = "phanThuc1";
+            this.phanThuc1.Size = new System.Drawing.Size(123, 20);
+            this.phanThuc1.TabIndex = 4;
             // 
-            // textBox2
+            // phanAo1
             // 
-            this.textBox2.Location = new System.Drawing.Point(596, 75);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(123, 20);
-            this.textBox2.TabIndex = 5;
+            this.phanAo1.Location = new System.Drawing.Point(596, 75);
+            this.phanAo1.Name = "phanAo1";
+            this.phanAo1.Size = new System.Drawing.Size(123, 20);
+            this.phanAo1.TabIndex = 5;
             // 
-            // textBox3
+            // phanThuc2
             // 
-            this.textBox3.Location = new System.Drawing.Point(230, 154);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(123, 20);
-            this.textBox3.TabIndex = 6;
+            this.phanThuc2.Location = new System.Drawing.Point(230, 154);
+            this.phanThuc2.Name = "phanThuc2";
+            this.phanThuc2.Size = new System.Drawing.Size(123, 20);
+            this.phanThuc2.TabIndex = 6;
             // 
-            // textBox4
+            // phanAo2
             // 
-            this.textBox4.Location = new System.Drawing.Point(596, 154);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(123, 20);
-            this.textBox4.TabIndex = 7;
+            this.phanAo2.Location = new System.Drawing.Point(596, 154);
+            this.phanAo2.Name = "phanAo2";
+            this.phanAo2.Size = new System.Drawing.Size(123, 20);
+            this.phanAo2.TabIndex = 7;
             // 
-            // button1
+            // bntCong
             // 
-            this.button1.Location = new System.Drawing.Point(263, 207);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(109, 23);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "Cộng 2 số phức";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.bntCong.Location = new System.Drawing.Point(81, 207);
+            this.bntCong.Name = "bntCong";
+            this.bntCong.Size = new System.Drawing.Size(109, 23);
+            this.bntCong.TabIndex = 8;
+            this.bntCong.Text = "Cộng 2 số phức";
+            this.bntCong.UseVisualStyleBackColor = true;
+            this.bntCong.Click += new System.EventHandler(this.button1_Click);
             // 
             // label5
             // 
@@ -138,73 +138,73 @@
             this.label6.TabIndex = 10;
             this.label6.Text = "Phần ảo của kết quả";
             // 
-            // textBox5
+            // phanThucKetQua
             // 
-            this.textBox5.Location = new System.Drawing.Point(230, 300);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(123, 20);
-            this.textBox5.TabIndex = 11;
+            this.phanThucKetQua.Location = new System.Drawing.Point(230, 300);
+            this.phanThucKetQua.Name = "phanThucKetQua";
+            this.phanThucKetQua.Size = new System.Drawing.Size(123, 20);
+            this.phanThucKetQua.TabIndex = 11;
             // 
-            // textBox6
+            // PhanAoKetQua
             // 
-            this.textBox6.Location = new System.Drawing.Point(596, 299);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(123, 20);
-            this.textBox6.TabIndex = 12;
+            this.PhanAoKetQua.Location = new System.Drawing.Point(596, 299);
+            this.PhanAoKetQua.Name = "PhanAoKetQua";
+            this.PhanAoKetQua.Size = new System.Drawing.Size(123, 20);
+            this.PhanAoKetQua.TabIndex = 12;
             // 
-            // button2
+            // bntNhan
             // 
-            this.button2.Location = new System.Drawing.Point(789, 105);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(97, 23);
-            this.button2.TabIndex = 13;
-            this.button2.Text = "Nhân 2 số phức";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.bntNhan.Location = new System.Drawing.Point(522, 207);
+            this.bntNhan.Name = "bntNhan";
+            this.bntNhan.Size = new System.Drawing.Size(97, 23);
+            this.bntNhan.TabIndex = 13;
+            this.bntNhan.Text = "Nhân 2 số phức";
+            this.bntNhan.UseVisualStyleBackColor = true;
+            this.bntNhan.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button3
+            // bntTru
             // 
-            this.button3.Location = new System.Drawing.Point(789, 157);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(97, 23);
-            this.button3.TabIndex = 14;
-            this.button3.Text = "Trừ số phức thứ nhất cho số phức thứ hai";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.bntTru.Location = new System.Drawing.Point(661, 207);
+            this.bntTru.Name = "bntTru";
+            this.bntTru.Size = new System.Drawing.Size(211, 23);
+            this.bntTru.TabIndex = 14;
+            this.bntTru.Text = "Trừ số phức thứ nhất cho số phức thứ hai";
+            this.bntTru.UseVisualStyleBackColor = true;
+            this.bntTru.Click += new System.EventHandler(this.button3_Click);
             // 
-            // button4
+            // bntChia
             // 
-            this.button4.Location = new System.Drawing.Point(448, 207);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 15;
-            this.button4.Text = "Chia số phức thứ nhất cho số phức thứ hai";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.bntChia.Location = new System.Drawing.Point(230, 207);
+            this.bntChia.Name = "bntChia";
+            this.bntChia.Size = new System.Drawing.Size(222, 23);
+            this.bntChia.TabIndex = 15;
+            this.bntChia.Text = "Chia số phức thứ nhất cho số phức thứ hai";
+            this.bntChia.UseVisualStyleBackColor = true;
+            this.bntChia.Click += new System.EventHandler(this.button4_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(914, 354);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.bntChia);
+            this.Controls.Add(this.bntTru);
+            this.Controls.Add(this.bntNhan);
+            this.Controls.Add(this.PhanAoKetQua);
+            this.Controls.Add(this.phanThucKetQua);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.bntCong);
+            this.Controls.Add(this.phanAo2);
+            this.Controls.Add(this.phanThuc2);
+            this.Controls.Add(this.phanAo1);
+            this.Controls.Add(this.phanThuc1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Tinh Toan So Phuc";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -216,18 +216,18 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox phanThuc1;
+        private System.Windows.Forms.TextBox phanAo1;
+        private System.Windows.Forms.TextBox phanThuc2;
+        private System.Windows.Forms.TextBox phanAo2;
+        private System.Windows.Forms.Button bntCong;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.TextBox phanThucKetQua;
+        private System.Windows.Forms.TextBox PhanAoKetQua;
+        private System.Windows.Forms.Button bntNhan;
+        private System.Windows.Forms.Button bntTru;
+        private System.Windows.Forms.Button bntChia;
     }
 }
 
